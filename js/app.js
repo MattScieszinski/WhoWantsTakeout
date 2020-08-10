@@ -34,7 +34,7 @@ if(hourNow > 18) {
     greeting = "Restaurants aren't open at this time, " + userName;
 }
 
-Get.textContent()
+document.write('<h1>' + greeting + '</h1>');
 
 
 // Salutations
