@@ -73,3 +73,9 @@ body {
  height: 365px;
  border-radius: 40px;
 }
+script{
+  font-size: 24px;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1a116d;
+}
