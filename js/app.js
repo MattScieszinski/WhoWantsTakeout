@@ -7,7 +7,7 @@ if (userName == "Matt") {
     var greeting1 = alert('Have a look, ' +  userName + '!')
 }
 
-var  Order = confirm ('Press OK if you need some food recommendations');
+var  order = confirm ('Press OK if you need some food recommendations');
 var greeting1 = alert('Have a look, ' +  userName + '!');
 
 
@@ -15,7 +15,18 @@ var greeting1 = alert('Have a look, ' +  userName + '!');
 
 
  
-// ask where they are
+// Desicion made
+
+
+
+function desicionmade() {
+  alert('Glad we can help you on food today!');
+}
+
+
+
+
+
 
 
 
@@ -34,7 +45,7 @@ if(hourNow > 18) {
     greeting = "Restaurants aren't open at this time, " + userName;
 }
 
-document.write('<h1>' + greeting + '</h1>');
+document.getElementById('greeting-placeholder').textContent = greeting;
 
 
 // Salutations
